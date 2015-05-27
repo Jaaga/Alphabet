@@ -1,8 +1,74 @@
 <resources>
     <string name="app_name">Alphabets</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="title_activity_drawing">Drawing</string>
     <string name="title_activity_screen_slide">slide screen</string>
+
+    <string-array name="alphabet">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="meaning">
+        <item>Apple</item>
+        <item>Boy</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Elephant</item>
+        <item>Fish</item>
+        <item>Gun</item>
+        <item>Hut</item>
+    </string-array>
+    <integer-array name="images">
+        <item>@mipmap/a</item>
+        <item>@mipmap/b</item>
+        <item>@mipmap/c</item>
+        <item>@mipmap/d</item>
+        <item>@mipmap/e</item>
+        <item>@mipmap/f</item>
+        <item>@mipmap/g</item>
+        <item>@mipmap/h</item>
+        <item>@mipmap/i</item>
+        <item>@mipmap/j</item>
+        <item>@mipmap/k</item>
+        <item>@mipmap/l</item>
+        <item>@mipmap/m</item>
+        <item>@mipmap/n</item>
+        <item>@mipmap/o</item>
+        <item>@mipmap/p</item>
+        <item>@mipmap/q</item>
+        <item>@mipmap/r</item>
+        <item>@mipmap/s</item>
+        <item>@mipmap/t</item>
+        <item>@mipmap/u</item>
+        <item>@mipmap/v</item>
+        <item>@mipmap/w</item>
+        <item>@mipmap/x</item>
+        <item>@mipmap/y</item>
+        <item>@mipmap/z</item>
+
+
+    </integer-array>
 </resources>
