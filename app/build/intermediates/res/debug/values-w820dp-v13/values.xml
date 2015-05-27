@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/DELL/AndroidStudioProjects/Alphabets/app/src/main/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/home/sneha/Alphabet/app/src/main/res/values-w820dp/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
-    <!-- From: file:/C:/Users/DELL/AndroidStudioProjects/Alphabets/app/src/main/res/values-w820dp/refs.xml -->
+    <!-- From: file:/home/sneha/Alphabet/app/src/main/res/values-w820dp/refs.xml -->
     <eat-comment/>
     <drawable name="greenboard">@mipmap/greenboard</drawable>
     <drawable name="ic_action_play">@mipmap/ic_action_play</drawable>
