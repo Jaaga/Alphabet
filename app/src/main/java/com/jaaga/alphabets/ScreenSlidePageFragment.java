@@ -1,6 +1,7 @@
 package com.jaaga.alphabets;
 
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.support.v4.app.Fragment;
@@ -27,7 +28,12 @@ public class ScreenSlidePageFragment extends Fragment {
     int[] images = {R.mipmap.a,R.mipmap.b,R.mipmap.c,R.mipmap.d,R.mipmap.e,R.mipmap.f,R.mipmap.g,R.mipmap.h,R.mipmap.i,
             R.mipmap.j,R.mipmap.k,R.mipmap.l,R.mipmap.m,R.mipmap.n,R.mipmap.o,R.mipmap.p,R.mipmap.q,R.mipmap.r,
             R.mipmap.s,R.mipmap.t,R.mipmap.u,R.mipmap.v,R.mipmap.w,R.mipmap.x,R.mipmap.y,R.mipmap.z};
+
+    int[] sound = {R.raw.a,R.raw.b,R.raw.c,R.raw.d,R.raw.e,R.raw.f,R.raw.g,R.raw.h,
+            R.raw.i,R.raw.j,R.raw.k,R.raw.l,R.raw.m,R.raw.n,R.raw.o,R.raw.p,R.raw.q,
+            R.raw.r,R.raw.s,R.raw.t,R.raw.u,R.raw.v,R.raw.w,R.raw.x,R.raw.y,R.raw.z};
     public static final String ARG_PAGE = "page";
+
 
 
     /**
@@ -76,13 +82,15 @@ public class ScreenSlidePageFragment extends Fragment {
 
         imageView.setImageResource(images[mPageNumber]);
         textUpper.setText(aToz[mPageNumber]);
-        textlower.setText(aToz[mPageNumber].toLowerCase());
+       textlower.setText(aToz[mPageNumber].toLowerCase());
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 voice.speak(aToz[mPageNumber],TextToSpeech.QUEUE_FLUSH,null);
+                MediaPlayer player = MediaPlayer.create(getActivity(),sound[mPageNumber]);
+                player.start();
             }
         });
 
